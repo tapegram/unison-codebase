@@ -10,4 +10,7 @@ Based on the [recommendation here](https://www.unisonweb.org/docs/codebase-organ
 ### graphqlclient
 Attempting to take a first stab at a graphqlclient library using the current state of the unison ecosystem.
 
-More docs to follow including how to get the code locally.
+To pull the code into your unison codebase, run this in ucm:
+`pull https://github.com/tapegram/unison-codebase:.graphqlclient .graphqlclient`
+
+This will pull the changes into a namespace call `graphqlclient` at the top level of your codebase.
